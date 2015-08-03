@@ -1,6 +1,5 @@
-require "codeforces_api/version"
-require "codeforces_api/client"
-require "codeforces_api/configuration"
+require File.expand_path("../codeforces_api/client",        __FILE__)
+require File.expand_path("../codeforces_api/version",       __FILE__)
 
 module CodeforcesAPI
   class << self
